@@ -1,0 +1,13 @@
+﻿<Application x:Class="WindowsPresentationFoundation.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WindowsPresentationFoundation"
+             StartupUri="Menu.xaml">
+    <Application.Resources>
+        <ImageBrush x:Key="Background" ImageSource="/Resources/LigaPrvaka.jpg"/>
+        <ImageBrush x:Key="Settings" ImageSource="/Resources/info.jpg"/>
+        <ImageBrush x:Key="Izlaz" ImageSource="/Resources/Izlaz.png" />
+        <ImageBrush x:Key="Pozadina" ImageSource="/Resources/football.jpg" />
+        <ImageBrush x:Key="Shirt" ImageSource="/Resources/footballShirt.png" />
+    </Application.Resources>
+</Application>
